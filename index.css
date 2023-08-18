@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.698);
+  }
+  
+  h1 {
+    animation: fade-in 2s ease-in-out;
+    animation: bounce 2s infinite;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 60px;
+  }
+  
+  button {
+    border-radius: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px 50px;
+  border: none;
+  cursor: pointer;
+  animation: glow 1s infinite;
+ margin-left: 700px;
+ margin-top: 100px;
+  }
+ 
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
